@@ -39,7 +39,74 @@
     position: relative;
     background-color: #A4D3FF;
     background-size: 10em;
-    border: #8d0000 solid 0.18em;
+    border: #ab1928 solid 0.3em;
+    height: 21em;
+    width: 27.5em;
+    margin-left: 2em;
+}
+.nubes2{
+    position: absolute;
+    z-index: 1;
+    background-image: url(/img/f03.png);
+    height: 5em;
+    width: 27.5em;
+    margin-top: 0.1em;
+}
+.suelo2 {
+    position: absolute;
+    z-index: 2;
+    background-image: url(/img/f01.png);
+    height: 0.95em;
+    width: 27.5em;
+    margin-top: 20em;
+}
+.mario2 {
+    position: absolute;
+    z-index: 3;
+    background-image: url(/img/f02.png);
     height: 7em;
-    width: 26em;
+    width: 13em;
+    margin-top: -6.15em;
+}
+.texto2 {
+    margin-top: -13em;
+    font-size: 0.96em;
+}
+
+
+
+.fondo3 {
+    position: relative;
+    background-color: #A4D3FF;
+    background-size: 10em;
+    border: #6167BC solid 0.18em;
+    height: 7em;
+    width: 13em;
+}
+.nubes3{
+    position: absolute;
+    z-index: 1;
+    background-image: url(/img/f03.png);
+    height: 5em;
+    width: 13em;
+    margin-top: 0.1em;
+}
+.suelo3 {
+    position: absolute;
+    z-index: 2;
+    background-image: url(/img/f01.png);
+    height: 0.95em;
+    width: 13em;
+    margin-top: 6em;
+}
+.mario3 {
+    position: absolute;
+    z-index: 3;
+    background-image: url(/img/f02.png);
+    height: 7em;
+    width: 13em;
+    margin-top: -6.15em;
+}
+.texto3 {
+    margin-top: 0.15em;
 }
