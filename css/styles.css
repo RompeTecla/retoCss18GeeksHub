@@ -1,0 +1,45 @@
+.fondo1 {
+    position: relative;
+    background-color: #A4D3FF;
+    background-size: 10em;
+    border: #6167BC solid 0.18em;
+    height: 7em;
+    width: 13em;
+}
+.nubes1{
+    position: absolute;
+    z-index: 1;
+    background-image: url(/img/f03.png);
+    height: 5em;
+    width: 13em;
+    margin-top: 0.1em;
+}
+.suelo1 {
+    position: absolute;
+    z-index: 2;
+    background-image: url(/img/f01.png);
+    height: 0.95em;
+    width: 13em;
+    margin-top: 6em;
+}
+.mario1 {
+    position: absolute;
+    z-index: 3;
+    background-image: url(/img/f02.png);
+    height: 7em;
+    width: 13em;
+    margin-top: -6.15em;
+}
+.texto1 {
+    margin-top: 0.15em;
+}
+
+
+.fondo2 {
+    position: relative;
+    background-color: #A4D3FF;
+    background-size: 10em;
+    border: #8d0000 solid 0.18em;
+    height: 7em;
+    width: 26em;
+}
